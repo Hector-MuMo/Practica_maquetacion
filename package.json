@@ -1,0 +1,19 @@
+{
+    "name": "maquetacion_grupomodelo",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "serve": "es-dev-server --app-index index.html --node-resolve --watch --open",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "hector_mm",
+    "license": "ISC",
+    "dependencies": {
+        "fa-icons": "^0.2.0",
+        "lit": "^2.7.5"
+    },
+    "devDependencies": {
+        "es-dev-server": "^2.1.0"
+    }
+}
