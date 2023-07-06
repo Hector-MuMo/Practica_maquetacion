@@ -4,8 +4,12 @@ export const SideBarStyles = css`
     :host{
         display: flex;
         flex-direction: column;
-        max-width: 70px;
+        width: 70px;
         background-color: #F0ECFC;
+    }
+
+    .container {
+        width: 70px;
     }
 
     img {

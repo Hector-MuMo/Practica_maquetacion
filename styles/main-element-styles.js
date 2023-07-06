@@ -1,10 +1,24 @@
 import { css } from 'lit';
 
 export const MainElementStyles = css`
+    button {
+        padding: 10px;
+        background-color: #F0ECFC;
+        border: none;
+        border-radius: 2px;
+        font-weight: 600;
+    }
+
+    input[type=date] {
+        font-weight: 600;
+        border: 2px solid #000;
+        width: 120px;
+    }
+
     .top-options, .bottom-options{
         display: flex;
         justify-content: space-between;
-        margin: 30px;
+        margin: 30px 30px 10px 30px;
     }
 
     .user-options > p {
@@ -46,5 +60,17 @@ export const MainElementStyles = css`
 
     .sales-container, .customers-container {
         display: flex;
+    }
+
+    .bottom-options {
+        border-top: 2px solid #000;
+        padding-top: 10px;
+    }
+
+    .submit-register {
+        width: 170px;
+        padding: 10px;
+        background-color: #D4D4D4;
+        font-weight: 600;
     }
 `

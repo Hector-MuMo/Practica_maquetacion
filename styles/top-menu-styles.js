@@ -48,7 +48,7 @@ export const TopMenuStyles = css`
     .menu-container__user-update {
         margin:0;
         font-size: 11px;
-         font-weight: 300;
+        font-weight: 300;
     }
 
     .menu-container__user-logo{

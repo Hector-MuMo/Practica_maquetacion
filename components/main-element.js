@@ -50,9 +50,9 @@ export class MainElement extends LitElement {
                 <div class='bottom-options'>
                     <div>
                         <button>Sin Vigencia</button>
-                        <input type='date'/>
+                        <input type='date' placeholder='Definir fecha'/>
                     </div>
-                    <button disable>Crear Registro</button>
+                    <button disabled class='submit-register'>Crear Registro</button>
                 </div>
         `;
     }

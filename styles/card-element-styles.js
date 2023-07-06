@@ -2,9 +2,9 @@ import { css } from 'lit';
 
 export const CardElementStyles = css`
     .card-container{
-        width: 300px;
+        width: 350px;
         min-height: 200px;
-        margin: 0 5px 0 5px;
+        margin: 0 10px 0 10px;
         box-shadow: 0px 2px 2px 2px #00000020;
         border-radius: 5px;
     }
